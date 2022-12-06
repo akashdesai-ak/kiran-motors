@@ -1,0 +1,2563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="./assets/css/styles-l.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <script src="./assets/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/slick.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css" />
+
+
+    <style>
+        .slick-disabled {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .page-wrapper>div:nth-of-type(3) {
+            display: none;
+        }
+
+        .page-wrapper>div:last-of-type {
+            display: none;
+        }
+
+        #carouselExampleIndicators .carousel-item {
+            display: block !important;
+        }
+
+        .modals-overlay {
+            z-index: 1 !important;
+        }
+    </style>
+
+    <title>Kiran Motos</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">Kiran Motors</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse search" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 m-auto">
+                    <input id="search" class="mr-sm-2 input-text" type="search"
+                        placeholder="Search your bike, eg: Honda" aria-label="Search" role="combobox">
+                    <button class="btn btn-black my-2 my-sm-0 search-btn" type="submit"><i class="fa-solid fa-search "
+                            style="font-size: 20px;"></i></button>
+                </form>
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./all-bikes.html">Buy Bike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sell Bike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Own a franchise</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <!-- Header Close -->
+
+
+    <!-- hero section -->
+    <div class="hero-img">
+        <img src="./assets/img/hero-bg.jpg" class="img-fluid" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-xl-4">
+                <div class="discover-card">
+                    <a href="./bikes.html">
+                        <div class="discover-img">
+                            <img src="./assets/img/svg/bike.svg" width="100%" height="100%" alt="hero">
+                        </div>
+                        <div class="discover-content">
+                            <h2>Bikes</h2>
+                            <p>High quality bikes for all needs and budgets</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4">
+                <div class="discover-card">
+                    <a href="./scooters.html">
+                        <div class="discover-img">
+                            <img src="./assets/img/svg/scooter.svg" width="100%" height="100%" alt="hero">
+                        </div>
+                        <div class="discover-content">
+                            <h2>Scooters</h2>
+                            <p>Comfortable scooters for you and your family</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4">
+                <div class="discover-card">
+                    <a href="./super-bikes.html">
+                        <div class="discover-img">
+                            <img src="./assets/img/svg/super-bike.svg" width="100%" height="100%" alt="hero">
+                        </div>
+                        <div class="discover-content">
+                            <h2>Super Bikes</h2>
+                            <p>Exclusive collection of high-end bikes at great prices</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero section close -->
+
+    <!-- Browse Bikes By section -->
+    <div class="container" style="clear: both;">
+        <section class="bb-brands">
+            <div class="head-sec">
+                <h2>Browse Bikes By</h2>
+            </div>
+            <div class="bbb-gallery">
+                <div class="bbb-inner">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link brands-tab active" id="brands-tab" data-toggle="tab" href="#brands"
+                                role="tab" aria-controls="brands" aria-selected="true">Brand</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link budget-tab" id="budget-tab" data-toggle="tab" href="#budget" role="tab"
+                                aria-controls="budget" aria-selected="false">Budget</a>
+                        </li> -->
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade active show" id="brands" role="tabpanel" aria-labelledby="video-tab">
+
+                            <div class="bbb-list">
+                                <ul>
+                                    <li class="bc-li "><a href="./hero.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" ls-is-cached lazyloaded"
+                                                    src="./assets/img/brands/hero-logo.png"
+                                                    data-src="./assets/img/brands/hero-logo.png" alt="Hero" width="100%"
+                                                    height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./honda.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" ls-is-cached lazyloaded"
+                                                    src="./assets/img/brands/honda-logo.png"
+                                                    data-src="./assets/img/brands/honda-logo.png" alt="Honda"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./tvs.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/tvs-logo.png"
+                                                    data-src="./assets/img/brands/tvs-logo.png" alt="TVS" width="100%"
+                                                    height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./suzuki.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/suzuki-logo.png"
+                                                    data-src="./assets/img/brands/suzuki-logo.png" alt="Suzuki"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./yamaha.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/yamaha-logo.png"
+                                                    data-src="./assets/img/brands/yamaha-logo.png" alt="Yamaha"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./royal-enfield.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/re-logo.png"
+                                                    data-src="./assets/img/brands/re-logo.png" alt="Royal Enfield"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./bajaj.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/bajaj-logo.png"
+                                                    data-src="./assets/img/brands/bajaj-logo.png" alt="Bajaj"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./mahindra.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/mahindra.png"
+                                                    data-src="./assets/img/brands/mahindra.png" alt="Mahindra"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./ktm.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/ktm.png"
+                                                    data-src="./assets/img/brands/ktm.png" alt="KTM" width="100%"
+                                                    height="100%"></div>
+                                        </a></li>
+                                    <li class="bc-li "><a href="./piaggio.html" class="brand-card">
+                                            <div class="bc-logo"><img class=" lazyloaded"
+                                                    src="./assets/img/brands/piaggio-logo.png"
+                                                    data-src="./assets/img/brands/piaggio-logo.png" alt="Piaggio"
+                                                    width="100%" height="100%"></div>
+                                        </a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="budget" role="tabpanel" aria-labelledby="budget-tab">
+                            <div class="bc-list">
+
+
+                                <ul>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-30000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>30,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-40000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>40,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-50000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>50,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-60000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>60,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-70000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>70,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-80000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>80,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-90000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>90,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-100000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>1,00,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-150000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>1,50,000</h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.everi.in/used-bikes.html?price=0-200000"
+                                            class="brand-card bc-flex">
+                                            <h3>Upto</h3>
+                                            <h4><span>₹</span>2,00,000</h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Browse Bikes By section Close-->
+
+    <!-- New Arrivals -->
+    <div class="fresh-arrivals">
+        <div class="container">
+            <div class="white-box">
+                <div class="head-sec">
+                    <h2>New Arrivals</h2>
+                </div>
+                <div class="fresh-slider slick-initialized slick-slider"><button class="slick-prev slick-arrow"
+                        aria-label="Previous" type="button" style="display: block;">Previous</button>
+                    <div class="slick-list draggable">
+                        <div class="slick-track"
+                            style="opacity: 1; width: 6816px; transform: translate3d(-1136px, 0px, 0px);">
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Avenger 150 149cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Avenger 150 149cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_4__13_1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_4__13_1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda CB Unicorn 149CC 2017	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda CB Unicorn 149CC 2017 </a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_3__118.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_3__118.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Pulsar 180 179CC 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Pulsar 180 179CC 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-current slick-active" data-slick-index="0"
+                                aria-hidden="false" style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HERO PASSION PRO 100cc 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">HERO PASSION PRO 100cc 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-active" data-slick-index="1" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="TVS	JUPITER 	110cc 2017"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">TVS
+                                            JUPITER 110cc 2017</a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-active" data-slick-index="2" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="BAJAJ CT100	100cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">BAJAJ
+                                            CT100 100cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-active" data-slick-index="3" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="4" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda Activa 109 cc 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda
+                                            Activa 109 cc 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="5" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Suzuki Access UZ 122cc 2014	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Suzuki Access UZ 122cc 2014 </a></h3>
+                                    <p>2014</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="6" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Avenger 150 149cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Avenger 150 149cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="7" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="8" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_4__13_1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_4__13_1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda CB Unicorn 149CC 2017	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda CB Unicorn 149CC 2017 </a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="9" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_3__118.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_3__118.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Pulsar 180 179CC 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Pulsar 180 179CC 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="10" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HERO PASSION PRO 100cc 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">HERO PASSION PRO 100cc 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="11" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="TVS	JUPITER 	110cc 2017"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">TVS
+                                            JUPITER 110cc 2017</a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="12" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="BAJAJ CT100	100cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">BAJAJ
+                                            CT100 100cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="13" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="14" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda Activa 109 cc 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda
+                                            Activa 109 cc 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="15" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Suzuki Access UZ 122cc 2014	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Suzuki Access UZ 122cc 2014 </a></h3>
+                                    <p>2014</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="16" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Avenger 150 149cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Avenger 150 149cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="17" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="18" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_4__13_1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_4__13_1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda CB Unicorn 149CC 2017	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda CB Unicorn 149CC 2017 </a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="19" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"><span
+                                            class="new">New Arrival</span> <span class="product-image-container"
+                                            style="width:270px;"><span class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_3__118.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_3__118.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Pulsar 180 179CC 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Pulsar 180 179CC 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div> <button class="slick-next slick-arrow" aria-label="Next" type="button"
+                        style="display: block;">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- New Arrivals close -->
+
+    <!-- why kiran section -->
+    <div class="why-kiran-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-left wow fadeInLeft animated" data-wow-delay="0.2s"
+                    style="visibility: visible; animation-delay: 0.2s;">
+                    <div class="card">
+                        <div class="card-img"><img class=" ls-is-cached lazyloaded"
+                                src="https://www.everi.in/media/images/bike-100.svg"
+                                data-src="https://www.everi.in/media/images/bike-100.svg" alt="100% certified"
+                                width="100%" height="100%"></div>
+                        <div class="card-desc">
+                            <p>100% certified Used 2 Wheelers</p>
+                        </div>
+                    </div>
+                    <!--<div class="card">
+        <div class="card-img"><img class="lazyload" src="" data-src="https://www.everi.in/media/images/6-months.svg" alt="6 Months Warranty" width="100%" height="100%"></div>
+        <div class="card-desc">
+        <p>6 months warranty</p>
+        </div>
+        </div>-->
+                    <div class="card">
+                        <div class="card-img"><img class=" ls-is-cached lazyloaded"
+                                src="./assets/img/svg/DocumentationAssistance.svg"
+                                data-src="./assets/img/svg/DocumentationAssistance.svg" alt="Documentation Assistance"
+                                width="100%" height="100%"></div>
+                        <div class="card-desc">
+                            <p>Documentation assistance</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img class=" ls-is-cached lazyloaded"
+                                src="./assets/img/svg/MulitpleFinance-Option.svg"
+                                data-src="./assets/img/svg/MulitpleFinance-Option.svg" alt="Mulitple Finance Option"
+                                width="100%" height="100%"></div>
+                        <div class="card-desc">
+                            <p>Multiple Finance options</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img class=" ls-is-cached lazyloaded"
+                                src="./assets/img/svg/Multi-BrandChoice.svg"
+                                data-src="./assets/img/svg/Multi-BrandChoice.svg" alt="Multi Brand Choice" width="100%"
+                                height="100%"></div>
+                        <div class="card-desc">
+                            <p>Multi Brand Choice</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img class=" lazyloaded" src="./assets/img/svg/WasanGroupLegacy.svg"
+                                data-src="./assets/img/svg/WasanGroupLegacy.svg" alt="Wasan Group Legacy of trust"
+                                width="100%" height="100%"></div>
+                        <div class="card-desc">
+                            <p>Kiran Motors legacy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <h2>Why Kiran Motors </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- why kiran close -->
+
+    <!-- most popular -->
+    <!-- one -->
+    <div class="most-popular">
+        <div class="container">
+            <div class="white-box">
+                <div class="head-sec">
+                    <h2>The Most Searched Bikes</h2>
+                </div>
+                <div class="fresh-slider slick-initialized slick-slider"><button class="slick-prev slick-arrow"
+                        aria-label="Previous" type="button" style="display: block;">Previous</button>
+                    <div class="slick-list draggable">
+                        <div class="slick-track"
+                            style="opacity: 1; width: 4544px; transform: translate3d(-1136px, 0px, 0px);">
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="BAJAJ CT100	100cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">BAJAJ
+                                            CT100 100cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Avenger 150 149cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Avenger 150 149cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-current slick-active" data-slick-index="0"
+                                aria-hidden="false" style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HERO PASSION PRO 100cc 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">HERO PASSION PRO 100cc 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-active" data-slick-index="1" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="TVS	JUPITER 	110cc 2017"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">TVS
+                                            JUPITER 110cc 2017</a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-active" data-slick-index="2" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-active" data-slick-index="3" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="BAJAJ CT100	100cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">BAJAJ
+                                            CT100 100cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide" data-slick-index="4" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide" data-slick-index="5" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Avenger 150 149cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Avenger 150 149cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="6" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/b/i/bike_5__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HERO PASSION PRO 100cc 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">HERO PASSION PRO 100cc 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="7" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="TVS	JUPITER 	110cc 2017"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">TVS
+                                            JUPITER 110cc 2017</a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="8" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="9" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design-_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="BAJAJ CT100	100cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">BAJAJ
+                                            CT100 100cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="10" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card slick-slide slick-cloned" data-slick-index="11" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__1.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Bajaj Avenger 150 149cc 2016"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Bajaj Avenger 150 149cc 2016</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div> <button class="slick-next slick-arrow" aria-label="Next" type="button"
+                        style="display: block;">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- two -->
+    <div class="most-popular">
+        <div class="container">
+            <div class="white-box">
+                <div class="head-sec">
+                    <h2>Best Scooters</h2>
+                </div>
+                <div class="fresh-slider slick-initialized slick-slider"><button class="slick-prev slick-arrow"
+                        aria-label="Previous" type="button" style="display: block;">Previous</button>
+                    <div class="slick-list draggable">
+                        <div class="slick-track"
+                            style="opacity: 1; width: 4544px; transform: translate3d(-1136px, 0px, 0px);">
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Suzuki Access UZ 122cc 2014	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Suzuki Access UZ 122cc 2014 </a></h3>
+                                    <p>2014</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda Activa 109 cc 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda
+                                            Activa 109 cc 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_1__11.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_1__11.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HONDA	ACTIVA	2016 100cc"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">HONDA
+                                            ACTIVA 2016 100cc</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-current slick-active" data-slick-index="0"
+                                aria-hidden="false" style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="TVS	JUPITER 	110cc 2017"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">TVS
+                                            JUPITER 110cc 2017</a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-active" data-slick-index="1" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-active" data-slick-index="2" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Suzuki Access UZ 122cc 2014	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">Suzuki Access UZ 122cc 2014 </a></h3>
+                                    <p>2014</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-active" data-slick-index="3" aria-hidden="false"
+                                style="width: 268px;" tabindex="0">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="0"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="0">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="4" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloaded"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda Activa 109 cc 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda
+                                            Activa 109 cc 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide" data-slick-index="5" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_1__11.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_1__11.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HONDA	ACTIVA	2016 100cc"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">HONDA
+                                            ACTIVA 2016 100cc</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="6" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_2__12.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="TVS	JUPITER 	110cc 2017"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">TVS
+                                            JUPITER 110cc 2017</a></h3>
+                                    <p>2017</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="7" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/_/g_1_5_.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="SUZUKI ACCESS 125 2015"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">SUZUKI
+                                            ACCESS 125 2015</a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="8" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1">
+                                        <span class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_5__3.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Suzuki Access UZ 122cc 2014	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Suzuki Access UZ 122cc 2014 </a></h3>
+                                    <p>2014</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="9" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_1_3__2.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Tvs	Scooty Zest 110cc  2015	"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Tvs
+                                            Scooty Zest 110cc 2015 </a></h3>
+                                    <p>2015</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="10" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/g/a/gautam-design_4__115.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="Honda Activa 109 cc 2019"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">Honda
+                                            Activa 109 cc 2019</a></h3>
+                                    <p>2019</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                            <div class="fresh-card  slick-slide slick-cloned" data-slick-index="11" aria-hidden="true"
+                                style="width: 268px;" tabindex="-1">
+                                <div class="fresh-photo product-image-block"><a href="#" tabindex="-1"> <span
+                                            class="product-image-container" style="width:270px;"><span
+                                                class="product-image-wrapper"
+                                                style="padding-bottom: 72.592592592593%;"><img
+                                                    class="product-image-photo product-image-photo lazyloading"
+                                                    loading="lazy"
+                                                    src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_1__11.png"
+                                                    data-src="https://www.everi.in/media/catalog/product/cache/7e2a24dada4796788cb5045b1fcbbec9/1/_/1_1__11.png"
+                                                    max-width="270" max-height="196"
+                                                    alt="HONDA	ACTIVA	2016 100cc"></span></span></a></div>
+                                <div class="fresh-body">
+                                    <h3><a href="./single-product-page.html" tabindex="-1">HONDA
+                                            ACTIVA 2016 100cc</a></h3>
+                                    <p>2016</p>
+                                    <div class="rating-box">
+                                        <ul class="rating">
+                                            <li class="active"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                    class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div> <!-- <h4></h4> -->
+                                    <!-- <p>*includes taxes and fees</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div> <button class="slick-next slick-arrow" aria-label="Next" type="button"
+                        style="display: block;">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- most popular close -->
+
+    <!-- about us -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 text-left">
+                    <div class="wasan-logo"><img class=" lazyloaded"
+                            src="https://www.everi.in/media/images/wasan-logo.png"
+                            data-src="https://www.everi.in/media/images/wasan-logo.png" alt="Hero" width="100%"
+                            height="100%"></div>
+                    <div id="wasan_slider" class="wasan-slider slick-initialized slick-slider slick-dotted"><button
+                            class="slick-prev slick-arrow" aria-label="Previous" type="button" aria-disabled="false"
+                            style="display: block;">Previous</button>
+                        <div class="slick-list draggable">
+                            <div class="slick-track"
+                                style="opacity: 1; width: 1564px; transform: translate3d(-782px, 0px, 0px);">
+                                <div class="about-card education-item slick-slide" data-slick-index="0"
+                                    aria-hidden="true" style="width: 391px;" tabindex="-1" role="tabpanel"
+                                    id="slick-slide10" aria-describedby="slick-slide-control10">
+                                    <div class="about-img-head">
+                                        <div class="about-photo"><img class=" ls-is-cached lazyloaded"
+                                                src="https://www.everi.in/media/images/Education.svg"
+                                                data-src="https://www.everi.in/media/images/Education.svg"
+                                                alt="education" width="100%" height="100%"></div>
+                                        <h4>Education &amp; Training</h4>
+                                    </div>
+                                    <div class="about-body">
+                                        <p>WKH is a Premire Finishing, Training &amp; Consulting Organization giving
+                                            competetive edge to individuals and groups in their socal, personal and
+                                            professional lives.</p>
+                                    </div>
+                                </div>
+                                <div class="about-card slick-slide" data-slick-index="1" aria-hidden="true"
+                                    style="width: 391px;" tabindex="-1" role="tabpanel" id="slick-slide11"
+                                    aria-describedby="slick-slide-control11">
+                                    <div class="about-img-head">
+                                        <div class="about-photo"><img class=" lazyloaded"
+                                                src="https://www.everi.in/media/images/Automotive.svg"
+                                                data-src="https://www.everi.in/media/images/Automotive.svg" alt="Hero"
+                                                width="100%" height="100%"></div>
+                                        <h4>Automotive</h4>
+                                    </div>
+                                    <div class="about-body automotive-item">
+                                        <p>Six decades of sound works in Sales &amp; services with the world’s leading
+                                            automobile brands including Toyota, Bharat Benz, TATA, Bajaj, KTM &amp;
+                                            Mahindra.</p>
+                                        <!-- <a href="https://www.everi.in/about-us/" class="btn">Read more...</a>-->
+                                    </div>
+                                </div>
+                                <div class="about-card pre-owned-item slick-slide slick-current slick-active"
+                                    data-slick-index="2" aria-hidden="false" style="width: 391px;" tabindex="0"
+                                    role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12">
+                                    <div class="about-img-head">
+                                        <div class="about-photo"><img class=" lazyloaded"
+                                                src="https://www.everi.in/media/images/super-shoppe.svg"
+                                                data-src="https://www.everi.in/media/images/super-shoppe.svg"
+                                                alt="Super Shopee" width="100%" height="100%"></div>
+                                        <h4>Used 2-Wheeler Super Shoppe</h4>
+                                    </div>
+                                    <div class="about-body">
+                                        <p>Wasan Group changes the way India rides pre-owned two-wheelers, with Everi!
+                                            We bring trust and credibility to the used vehicles market.</p>
+                                    </div>
+                                </div>
+                                <div class="about-card electric-cars slick-slide" data-slick-index="3"
+                                    aria-hidden="true" style="width: 391px;" tabindex="-1" role="tabpanel"
+                                    id="slick-slide13" aria-describedby="slick-slide-control13">
+                                    <div class="about-img-head">
+                                        <div class="about-photo"><img class=" lazyloaded"
+                                                src="https://www.everi.in/media/images/Electric-vehicles-manufacturing.svg"
+                                                data-src="https://www.everi.in/media/images/Electric-vehicles-manufacturing.svg"
+                                                alt="Hero" width="100%" height="100%"></div>
+                                        <h4>Wasan E-Mobility</h4>
+                                    </div>
+                                    <div class="about-body">
+                                        <p>Will engage with EV ecosystem stakeholders to drive faster adoption of
+                                            electric vehicles and ensure a progressive and greener future.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;"
+                            aria-disabled="false">Next</button>
+                        <ul class="slick-dots" role="tablist" style="display: block;">
+                            <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control10"
+                                    aria-controls="slick-slide10" aria-label="1 of 4" tabindex="-1">1</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control11"
+                                    aria-controls="slick-slide11" aria-label="2 of 4" tabindex="-1">2</button></li>
+                            <li role="presentation" class="slick-active"><button type="button" role="tab"
+                                    id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 4"
+                                    tabindex="0" aria-selected="true">3</button></li>
+                            <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control13"
+                                    aria-controls="slick-slide13" aria-label="4 of 4" tabindex="-1">4</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7 text-right">
+                    <h2>About <br>Kiran Motors</h2>
+                    <div class="vm-cta">
+                        <div class="btn btn-red"><a href="">Know More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about us close -->
+
+    <!-- testimonials -->
+    <div class="happy-customers">
+        <div class="container">
+            <div class="white-box">
+                <div class="testimonials-head">
+                    <div class="head-sec text-left">
+                        <h2>Customer Testmonials</h2>
+                    </div>
+                    <div class="testimonial-head text-right"><a href="#">View All</a>
+                    </div>
+                </div>
+                <div class="testimonial-slider slick-initialized slick-slider slick-dotted"><button
+                        class="slick-prev slick-arrow" aria-label="Previous" type="button"
+                        style="display: block;">Previous</button>
+                    <div class="slick-list draggable">
+                        <div class="slick-track"
+                            style="opacity: 1; width: 15106px; transform: translate3d(-2324px, 0px, 0px);">
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="-1"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class="lazyload"
+                                            src=""
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/sunil-shinde_1.jpg"
+                                            alt="Sunil Shinde"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Sunil Shinde</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Everi is the best place to buy used 2-wheelers. Co-operative staff, good
+                                            condition bikes at reasonable prices.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide" data-slick-index="0" aria-hidden="true"
+                                style="width: 1162px;" tabindex="-1" role="tabpanel" id="slick-slide00"
+                                aria-describedby="slick-slide-control00">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto"
+                                            class=" ls-is-cached lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/Chandar-Dhanrajani_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/Chandar-Dhanrajani_1.jpg"
+                                            alt="Chandar Dhanrajani"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Chandar Dhanrajani</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Fantastic second-hand bike delivered by Everi. Everi is the best place to buy
+                                            a used two-wheeler vehicle. I purchased two Activa 5G 2019 models in very
+                                            good condition and exchanged my two Activa 2014 and 2013 model.
+                                            Thanks, Everi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-current slick-active"
+                                data-slick-index="1" aria-hidden="false" style="width: 1162px;" tabindex="0"
+                                role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class=" lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/fazal_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/fazal_1.jpg"
+                                            alt="Fazal"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Fazal</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>My daily commute to my college is now super cool. Just bought a second-hand
+                                            scooter delivered by Everi. Everi is the best place to buy a used
+                                            second-hand two-wheeler.
+                                            Thank you, Everi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide" data-slick-index="2" aria-hidden="true"
+                                style="width: 1162px;" tabindex="-1" role="tabpanel" id="slick-slide02"
+                                aria-describedby="slick-slide-control02">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class=" lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/devnath-khedulker_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/devnath-khedulker_1.jpg"
+                                            alt="Devnath Khedulkar"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Devnath Khedulkar</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Very fast process for two-wheeler finance. Just bought a Pulsar-220 2017
+                                            model, and very good quality second-hand bikes within 20000. Everi
+                                            understands the need of customers.
+
+                                            Overall good experience!
+
+                                            Thanks, Everi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide" data-slick-index="3" aria-hidden="true"
+                                style="width: 1162px;" tabindex="-1" role="tabpanel" id="slick-slide03"
+                                aria-describedby="slick-slide-control03">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class=" lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/pravin-pagare_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/pravin-pagare_1.jpg"
+                                            alt="Pravin pagare Pagare"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Pravin pagare Pagare</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Nice showroom, professional people, co-operative staff. Team Everi nicely
+                                            explained the second-hand vehicle details. Purchased Discover bike at a
+                                            reasonable price.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide" data-slick-index="4" aria-hidden="true"
+                                style="width: 1162px;" tabindex="-1" role="tabpanel" id="slick-slide04"
+                                aria-describedby="slick-slide-control04">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class=" lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/anuradha-singh_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/anuradha-singh_1.jpg"
+                                            alt="Anuradha Singh"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Anuradha Singh</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Awesome second-hand scooter under 20000 delivered by Everi, Nashik. Very good
+                                            condition. The staff is very humble and co-operative.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide" data-slick-index="5" aria-hidden="true"
+                                style="width: 1162px;" tabindex="-1" role="tabpanel" id="slick-slide05"
+                                aria-describedby="slick-slide-control05">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class=" lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/sunil-shinde_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/sunil-shinde_1.jpg"
+                                            alt="Sunil Shinde"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Sunil Shinde</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Everi is the best place to buy used 2-wheelers. Co-operative staff, good
+                                            condition bikes at reasonable prices.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="6"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class=" lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/Chandar-Dhanrajani_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/Chandar-Dhanrajani_1.jpg"
+                                            alt="Chandar Dhanrajani"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Chandar Dhanrajani</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Fantastic second-hand bike delivered by Everi. Everi is the best place to buy
+                                            a used two-wheeler vehicle. I purchased two Activa 5G 2019 models in very
+                                            good condition and exchanged my two Activa 2014 and 2013 model.
+                                            Thanks, Everi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="7"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto"
+                                            class=" ls-is-cached lazyloaded"
+                                            src="https://www.everi.in/media//testimonials/image/cache/551/fazal_1.jpg"
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/fazal_1.jpg"
+                                            alt="Fazal"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Fazal</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>My daily commute to my college is now super cool. Just bought a second-hand
+                                            scooter delivered by Everi. Everi is the best place to buy a used
+                                            second-hand two-wheeler.
+                                            Thank you, Everi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="8"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class="lazyload"
+                                            src=""
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/devnath-khedulker_1.jpg"
+                                            alt="Devnath Khedulkar"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Devnath Khedulkar</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Very fast process for two-wheeler finance. Just bought a Pulsar-220 2017
+                                            model, and very good quality second-hand bikes within 20000. Everi
+                                            understands the need of customers.
+
+                                            Overall good experience!
+
+                                            Thanks, Everi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="9"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class="lazyload"
+                                            src=""
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/pravin-pagare_1.jpg"
+                                            alt="Pravin pagare Pagare"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Pravin pagare Pagare</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Nice showroom, professional people, co-operative staff. Team Everi nicely
+                                            explained the second-hand vehicle details. Purchased Discover bike at a
+                                            reasonable price.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="10"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class="lazyload"
+                                            src=""
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/anuradha-singh_1.jpg"
+                                            alt="Anuradha Singh"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Anuradha Singh</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Awesome second-hand scooter under 20000 delivered by Everi, Nashik. Very good
+                                            condition. The staff is very humble and co-operative.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonials-card-main slick-slide slick-cloned" data-slick-index="11"
+                                aria-hidden="true" style="width: 1162px;" tabindex="-1">
+                                <div class="testimonials-card">
+                                    <div class="testimonials-photo"><img width="471" height="auto" class="lazyload"
+                                            src=""
+                                            data-src="https://www.everi.in/media//testimonials/image/cache/551/sunil-shinde_1.jpg"
+                                            alt="Sunil Shinde"></div>
+                                    <div class="testimonials-body">
+                                        <div class="client-name">
+                                            <h4>Sunil Shinde</h4><!-- <h5></h5> -->
+                                        </div>
+                                        <p>Everi is the best place to buy used 2-wheelers. Co-operative staff, good
+                                            condition bikes at reasonable prices.
+
+                                            Thank you Everi, Nashik</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <button class="slick-next slick-arrow" aria-label="Next" type="button"
+                        style="display: block;">Next</button>
+                    <ul class="slick-dots" role="tablist" style="display: block;">
+                        <li class="" role="presentation"><button type="button" role="tab" id="slick-slide-control00"
+                                aria-controls="slick-slide00" aria-label="1 of 6" tabindex="-1">1</button></li>
+                        <li role="presentation" class="slick-active"><button type="button" role="tab"
+                                id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 6"
+                                tabindex="0" aria-selected="true">2</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02"
+                                aria-controls="slick-slide02" aria-label="3 of 6" tabindex="-1">3</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03"
+                                aria-controls="slick-slide03" aria-label="4 of 6" tabindex="-1">4</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control04"
+                                aria-controls="slick-slide04" aria-label="5 of 6" tabindex="-1">5</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control05"
+                                aria-controls="slick-slide05" aria-label="6 of 6" tabindex="-1">6</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonials close -->
+
+
+    <!-- footer -->
+    <footer class="footer-content">
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-2">
+                    <h2 style="color: #D80100;">Kiran Motors</h2>
+                </div>
+                <div class="col-sm-12 col-md-3 footer-item">
+                    <h3>Contact</h3>
+                    <p>Shop Nos: 2 & 3, Suresh Tower, Santoshi Mata Road, Opp. Vijay Sales, Kalyan West - 421301</p>
+                    <p><a href="mailto:"><i class="fa fa-envelope" style="color: #D80100;"></i> Test@mail.com</a></p>
+                    <p><a href="tel:+917738116040"><i class="fa fa-phone-volume" style="color: #D80100;"></i>
+                            +91-7738116040</a></p>
+                </div>
+                <div class="col-sm-12 col-md-2 footer-item">
+                    <h3>Quick Links</h3>
+                    <li><a href="">Privacy & Cookie Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                </div>
+                <div class="col-sm-12 col-md-2 footer-item">
+                    <h3>Services</h3>
+                    <div><a href="">Buy a bike</a></div>
+                    <div><a href="">Sell your bike</a></div>
+                    <div><a href="">Own a franchise</a></div>
+
+                </div>
+                <div class="col-sm-12 col-md-3 social footer-item">
+                    <h3>Follow us on</h3>
+                    <a href=""><i class="fab fa-facebook" style="font-size: 25px; padding: 5px;"></i></a>
+                    <a href=""><i class="fab fa-twitter" style="font-size: 25px;padding: 5px;"></i></a>
+                    <a href=""><i class="fab fa-instagram" style="font-size: 25px;padding: 5px;"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="">
+                <p>&copy;2022 All rights reserved<a href="#">Moonstone Conceptss</a></p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- footer close-->
+
+    <style>
+        .whatsapp-sec-side {
+            position: fixed;
+            top: 32%;
+            right: 0;
+            z-index: 999;
+        }
+
+        .whatsapp-sec-side a {
+            height: 44px;
+            padding-right: 5x;
+            align-items: center;
+            color: #fff;
+            display: flex;
+            border-radius: 6px 0px 0px 6px;
+        }
+
+        .whatsapp-support-img {
+            width: 44px;
+        }
+
+        .whatsapp-support-img img {
+            margin: auto;
+        }
+    </style>
+    <div class="support-side">
+        <div class="whatsapp-sec-side">
+            <a href="https://api.whatsapp.com/send?phone=917738116040"><span class="whatsapp-support-img"><img
+                        src="./assets/img/w2.jpg" alt="Contact us on WhatsApp" width="100%" height="100%"></span></a>
+        </div>
+        <div class="email-sec-side">
+            <a href="mailto:"><span class="phone-support-img"><img src="./assets/img/svg/email-side.svg"
+                        alt="Kiran Email Support" width="100%" height="100%"></span><span class="phone-support-number">
+                    support@kiran.in</span></a>
+        </div>
+        <div class="phone-sec-side">
+            <a href="tel:+917738116040">
+                <span class="phone-support-img"><img src="./assets/img/svg/phone-side.svg"
+                        alt="Kiran Motors Phone Support" width="100%" height="100%"></span><span
+                    class="phone-support-number">917738116040</span></a>
+        </div>
+    </div>
+
+    <button id="goToTop" title="Go to top" style="display: block;"><span class="bike-icon"></span> <span>Back to
+            top</span></button>
+
+
+
+
+    <script type="text/javascript" src="https//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+
+    <!-- font awesome -->
+    <script src="./assets/js/all.min.js"></script>
+    <!-- jquery -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <script src="./assets/js/owl.carousel.min.js"></script>
+
+
+    <!-- owl carousel -->
+    <script>
+        var carouselElement1 = $('#owl-demo');
+
+        var isAutoPlay = true;
+
+        initialize_owl(carouselElement1);
+
+        function initialize_owl(el) {
+            el.owlCarousel({
+                dots: false,
+                nav: true,
+                loop: true,
+                navText: "",
+                items: 5,
+                margin: 10,
+                responsiveClass: true,
+                lazyLoad: true,
+                autoplay: isAutoPlay,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: false,
+                autoHeight: false,
+                slideSpeed: 1000,
+            });
+        }
+    </script>
+    <script>
+        var carouselElement1 = $('#carouselExampleIndicators');
+
+        var isAutoPlay = false;
+
+        initialize_owl(carouselElement1);
+
+        function initialize_owl(el) {
+            el.owlCarousel({
+                dots: true,
+                nav: false,
+                loop: true,
+                center: true,
+                navText: ['', ''],
+                items: 1,
+                margin: 10,
+                responsiveClass: true,
+                lazyLoad: true,
+                autoplay: isAutoPlay,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                autoHeight: true,
+                slideSpeed: 1000,
+            });
+        }
+    </script>
+
+    <!--  slick-->
+    <script>
+        $(".testimonial-slider").slick({
+            infinite: true,
+            dots: true,
+            loop: true,
+            arrows: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true
+        });
+    </script>
+    <script>
+        $(".hc-slider").slick({
+            dots: false,
+            loop: true,
+            arrows: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: false,
+            responsive: [{
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <script type="text/javascript">
+        $(".page-message-flash").fadeOut(7000);
+        jQuery(".wasan-slider").slick({
+            infinite: false,
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    </script>
+    <script type="text/javascript">
+        $(".fresh-slider").slick({
+            autoplay: true,
+            autoplaySpeed: 5000,
+            speed: 800,
+            infinite: true,
+            dots: false,
+
+
+            arrows: true,
+            margin: 8,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2.1,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1.05,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        $(".hc-slider").slick({
+            dots: false,
+            loop: true,
+            arrows: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: false,
+            responsive: [{
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <script src="./assets/js/c9d1c9931e71059e6ecabfc2cd0606ce.min.js"></script>
+
+</body>
+
+</html>
