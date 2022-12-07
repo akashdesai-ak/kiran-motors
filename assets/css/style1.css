@@ -14779,11 +14779,11 @@ select:not([disabled]):focus {
 .product-info-main .action.tocompare,
 .product-options-bottom .action.tocompare {
     background-image: none;
-    background: #f2f2f2;
-    border: 1px solid #cdcdcd;
+    background: #f2f2f2 !important;
+    border: 1px solid #cdcdcd !important; 
     color: #333;
     cursor: pointer;
-    font-family: 'Gotham Rounded';
+    /* font-family: 'Gotham Rounded'; */
     font-weight: 700;
     margin: 0;
     padding: 12px 18px;
@@ -14814,9 +14814,9 @@ select:not([disabled]):focus {
 .product-info-main .action.tocompare:active,
 .product-options-bottom .action.tocompare:focus,
 .product-options-bottom .action.tocompare:active {
-    background: #e2e2e2;
-    border: 1px solid #cdcdcd;
-    color: #333;
+    background: #e2e2e2 !important;
+    border: 1px solid #cdcdcd !important;
+    color: #333 !important;
 }
 
 .abs-action-link-button:hover,
@@ -14828,9 +14828,9 @@ select:not([disabled]):focus {
 .block-bundle-summary .action.towishlist:hover,
 .product-info-main .action.tocompare:hover,
 .product-options-bottom .action.tocompare:hover {
-    background: #e2e2e2;
-    border: 1px solid #cdcdcd;
-    color: #555;
+    background: #e2e2e2 !important;
+    border: 1px solid #cdcdcd !important;
+    color: #555 !important;
 }
 
 .abs-action-link-button.disabled,
@@ -19017,7 +19017,8 @@ body._has-modal-custom .modal-custom-overlay {
     transform: rotate(180deg) translate(0, 50%);
 }
 
-.amslick-slider-container .slick-initialized .slick-slide {
+/* .amslick-slider-container .slick-initialized .slick-slide, */
+.amslick-slider-container .slick-slide {
     display: inline-block !important;
     float: none !important;
     height: auto;
@@ -21253,7 +21254,8 @@ a.mplayer-item-slider:hover {
     display: none;
 }
 
-.um-prodslider-t-slick .items.slick-initialized {
+/* .um-prodslider-t-slick .items.slick-initialized, */
+.um-prodslider-t-slick .items .slick-slider {
     display: block;
 }
 
@@ -21442,7 +21444,8 @@ a.mplayer-item-slider:hover {
     pointer-events: none;
 }
 
-.slick-initialized .slick-slide {
+/* .slick-initialized .slick-slide, */
+.slick-slide {
     display: block;
 }
 
@@ -21461,7 +21464,7 @@ a.mplayer-item-slider:hover {
 }
 
 .slick-loading .slick-list {
-    background: #fff url('../../frontend/Hiddentechies/bentriz/en_US/css/ajax-loader.gif') center center no-repeat;
+    background: #fff url('../img/ajax-loader.gif') center center no-repeat;
 }
 
 .slick-prev,
@@ -39968,7 +39971,7 @@ h6 {
 }
 
 .product-info-main .product-social-links a.action {
-    color: #222222;
+    color: #222222 !important;
     font-weight: 600;
     margin-right: 20px;
     transition: all 0.3s ease-in 0s;
@@ -42112,12 +42115,12 @@ span.new {
 }
 
 .rating>li.active i {
-    color: #D2232A;
+    color: var(--primary-color) !important;
 }
 
 .rating>li i {
     font-size: 16px;
-    color: #cccccc;
+    color: var(--primary-color) !important;
 }
 
 .fresh-slider .slick-slide {
@@ -42187,6 +42190,8 @@ span.new {
 
 .fresh-slider .slick-dots {
     bottom: 5px;
+    z-index: 1000;
+    /* background-color: #000 !important; */
 }
 
 .slick-dots li button:before {
@@ -42196,7 +42201,7 @@ span.new {
 .slick-dots li {
     width: 12px;
     height: 12px;
-    background: #cccccc;
+    /* background: #cccccc; */
     border-radius: 50%;
 }
 
@@ -42337,7 +42342,7 @@ span.new {
     padding-left: 120px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
@@ -42483,11 +42488,14 @@ span.new {
     text-align: right !important;
     right: 0px;
     width: 100% !important;
+    /* background-color: #000 !important; */
 }
 
 .slick-dots li button {
     height: 10px !important;
     width: 10px !important;
+    z-index: 1000;
+    /* background-color: #000 !important; */
 }
 
 .happy-customers {
@@ -43328,7 +43336,7 @@ span.assurd-img {
 
 .brand-content .heart-like {
     font-size: 20px;
-    color: #D2232A;
+    color: var(--primary-color);
     margin-left: 15px;
 }
 
@@ -43368,7 +43376,7 @@ span.assurd-img {
     font-size: 16px;
    
     font-weight: normal;
-    color: #D2232A;
+    color: var(--primary-color);
     margin-top: 15px;
     display: inline-block;
 }
@@ -43449,7 +43457,7 @@ span.assurd-img {
     content: " ";
     width: 100%;
     height: 1px;
-    background: #D2232A;
+    background: var(--primary-color) !important;
     position: absolute;
     top: 50%;
     left: 0;
@@ -44309,7 +44317,7 @@ span.info-name {
 }
 
 .product-info-pmedia .rating>li.active i {
-    color: #D2232A;
+    color: var(--primary-color) !important;
     font-size: 24px;
 }
 
@@ -58488,4 +58496,7 @@ screen and (max-height: 300px) {
 nav {
     /* box-shadow: 0 0 8px #222222; */
     padding: 15px !important;
+}
+a{
+    text-decoration: none !important;
 }

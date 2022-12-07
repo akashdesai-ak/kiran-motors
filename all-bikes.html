@@ -78,12 +78,12 @@
                             style="font-size: 20px;"></i></button>
                 </form>
                 <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Buy Bike</a>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#">Buy Bike</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Sell Bike</a>
@@ -112,9 +112,9 @@
 
 
     <!-- main -->
-    <main id="maincontent" class="page-main "> <a id="contentarea" tabindex="-1"></a>
+    <main id="maincontent" class="page-main"> <a id="contentarea" tabindex="-1"></a>
         <div class="category-view"> </div>
-        <div class="columns container">
+        <div class="columns">
             <div class="column main">
                 <div class="page-title-wrapper">
                     <h1 class="page-title" id="page-title-heading" aria-labelledby="page-title-heading toolbar-amount">
@@ -1223,9 +1223,23 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
-    <script src="./assets/js/owl.carousel.min.js"></script>
+ 
 
-
+    <script>
+        // ===== Scroll to Top ==== 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+                $('#goToTop').fadeIn(200); // Fade in the arrow
+            } else {
+                $('#goToTop').fadeOut(200); // Else fade out the arrow
+            }
+        });
+        $('#goToTop').click(function () { // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0 // Scroll to top of body
+            }, 500);
+        });
+    </script>
 
 
 </body>
